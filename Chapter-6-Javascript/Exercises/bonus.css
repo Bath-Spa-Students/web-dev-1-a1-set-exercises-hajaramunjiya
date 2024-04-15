@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #FF6B6B, #88D8B0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.game {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#colorDisplay {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#squares {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#message {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+#lives {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#livesCount {
+    font-size: 1.5em;
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}

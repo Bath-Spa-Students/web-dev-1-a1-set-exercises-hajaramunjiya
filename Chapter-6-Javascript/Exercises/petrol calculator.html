@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Opening HTML tag with language set to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding set to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport meta tag for responsiveness -->
+    <title>Petrol Calculator</title> <!-- Title of the page -->
+    <link rel="stylesheet" href="petrol calculator.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="calculator">
+        <h2>Petrol Calculator</h2> <!-- Heading for the calculator -->
+        <div class="input-group">
+            <label for="cost">Cost per liter:</label> <!-- Label for cost input field -->
+            <input type="number" id="cost" value="1.72" step="0.01"> <!-- Input field for cost per liter -->
+        </div>
+        <div class="input-group">
+            <label for="liters">Liters purchased:</label> <!-- Label for liters input field -->
+            <input type="number" id="liters" value="0" step="0.01"> <!-- Input field for liters purchased -->
+        </div>
+        <button id="calculateBtn">Calculate</button> <!-- Button to trigger calculation -->
+        <p id="result"></p> <!-- Paragraph to display calculation result -->
+    </div>
+    <script src="petrol calculator.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
+

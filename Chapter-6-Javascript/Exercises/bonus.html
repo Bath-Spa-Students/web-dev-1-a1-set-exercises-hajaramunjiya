@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Opening HTML tag with language set to English -->
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding set to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport meta tag for responsiveness -->
+    <title>RGB Color Guessing Game</title> <!-- Title of the page -->
+    <link rel="stylesheet" href="bonus.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>The RGB Color Guessing Game</h1> <!-- Main heading for the game -->
+        <div class="game">
+            <h2>Guess the RGB color:</h2> <!-- Subheading for the game -->
+            <div id="colorDisplay">RGB</div> <!-- Display area for the RGB color -->
+            <div id="squares"> <!-- Container for color squares -->
+                <div class="square"></div> <!-- Color square 1 -->
+                <div class="square"></div> <!-- Color square 2 -->
+                <div class="square"></div> <!-- Color square 3 -->
+            </div>
+            <div id="message"></div> <!-- Message area for game feedback -->
+            <div id="lives">Lives: <span id="livesCount"></span></div> <!-- Display area for remaining lives -->
+            <button id="reset">New Colors</button> <!-- Button to reset the game -->
+        </div>
+    </div>
+    <script src="bonus.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
