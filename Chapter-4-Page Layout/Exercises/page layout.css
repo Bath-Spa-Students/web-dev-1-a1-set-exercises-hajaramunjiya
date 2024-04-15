@@ -1,0 +1,115 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set body height to 100% of viewport height */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Main content section styles */
+main {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the start */
+}
+
+/* Section styles */
+section {
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Aside styles */
+aside {
+    width: 48%; /* Adjusted width */
+    padding: 20px; 
+    background-color: #172d67;
+    color: #FFFFFF;
+}
+
+/* Footer styles */
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Centered text styles */
+.centered {
+    text-align: justify; /* Align text justified */
+}
+
+/* Blue box styles */
+.blue-box {
+    max-width: 400px; /* Adjusted maximum width */
+    padding: 20px;
+    background-color: #172d67;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Line Up image styles */
+.lineup-image {
+    margin-top: 10px;
+    width: 100%; /* Adjusted width */
+    max-width: 250px; /* Adjusted maximum width */
+    display: inline-block;
+}
+
+/* Welcome image styles */
+.welcome-image {
+    width: 100%; /* Set width to 100% */
+    max-height: 300px; /* Adjusted maximum height */
+    object-fit: cover;
+}
