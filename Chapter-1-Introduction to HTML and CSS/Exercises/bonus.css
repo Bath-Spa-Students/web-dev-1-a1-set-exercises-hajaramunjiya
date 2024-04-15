@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Set the font family for the entire document */
+    background-color: #f5f5f5; /* Set the background color */
+    color: #333; /* Set the text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+header {
+    background-color: #333; /* Set background color of header */
+    color: #fff; /* Set text color of header */
+    padding: 20px; /* Add padding to the header */
+    text-align: center; /* Align text to the center */
+}
+
+main {
+    max-width: 800px; /* Set maximum width for main content */
+    margin: 20px auto; /* Center align main content */
+    padding: 0 20px; /* Add padding to the sides of main content */
+}
+
+section {
+    margin-bottom: 40px; /* Add margin at the bottom of each section */
+}
+
+h2 {
+    color: #333; /* Set text color for h2 */
+    margin-bottom: 10px; /* Add margin at the bottom of h2 */
+}
+
+table {
+    width: 100%; /* Set table width to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-bottom: 20px; /* Add margin at the bottom of the table */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Set border for table cells */
+    padding: 8px; /* Add padding to table cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Set background color for table header cells */
+}
+
+/* Additional Styles */
+h1 {
+    font-size: 36px; /* Set font size for h1 */
+}
+
+h3 {
+    font-size: 24px; /* Set font size for h3 */
+}
+
+/* Code Example Styles */
+code {
+    font-family: 'Courier New', Courier, monospace; /* Set font family for code elements */
+}
